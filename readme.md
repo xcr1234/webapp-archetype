@@ -1,6 +1,6 @@
 #webapp archetype
 
-##com.oraclewdp.webapp-archetype
+##oraclewdp maven webapp 构建
 
 ---
 
