@@ -24,6 +24,13 @@
 |   artifactId  |   webapp-archetype    |
 |   version |   1.0-SNAPSHOT    |
 
+可选的参数
+
+|   属性名  |  说明  |  默认值  |
+|---|---|---|
+|   encoding    |   源文件编码格式 |   UTF-8   |
+|   jdkVersion  |   jdk的版本号 |   1.7 |
+
 
 ###用命令行构建（推荐）
 
@@ -38,11 +45,13 @@
    -DartifactId=mywebapp                         \
    -Dversion=1.0                                 \
    -DarchetypeCatalog=local
+   -Dencoding=UTF-8
+   -DjdkVersion=1.7
 ```
 
 在windows中，执行  
 
-`mvn archetype:generate -DarchetypeGroupId=com.oraclewdp -DarchetypeArtifactId=webapp-archetype -DarchetypeCatalog=local -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.mycompany -DartifactId=mywebapp -Dversion=1.0`  
+`mvn archetype:generate -DarchetypeGroupId=com.oraclewdp -DarchetypeArtifactId=webapp-archetype -DarchetypeCatalog=local -DarchetypeVersion=1.0-SNAPSHOT -DgroupId=com.mycompany -DartifactId=mywebapp -Dversion=1.0 -DjdkVersion=1.7 -Dencoding=UTF-8`  
 
 将其中的-DgroupId、-DartifactId和-Dversion换成你自己的。
 
