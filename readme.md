@@ -1,21 +1,21 @@
-#webapp archetype
+# webapp archetype
 
-##oraclewdp maven webapp 构建
+## oraclewdp maven webapp 构建
 
 ---
 
 
-##1.从coding上克隆出完整的项目
+## 1.从coding上克隆出完整的项目
 
 `git clone https://git.coding.net/xcr_abcd/webapp-archetype.git`
 
-##2.安装到本地maven仓库中
+## 2.安装到本地maven仓库中
 
 安装maven，并配置好maven环境变量，进入克隆出的目录。
 
 `mvn install`
 
-##3.构造webapp.
+## 3.构造webapp.
 
 
 |   属性名  |  值  |
@@ -32,7 +32,7 @@
 |   jdkVersion  |   jdk的版本号 |   1.7 |
 
 
-###用命令行构建（推荐）
+### 用命令行构建（推荐）
 
 在linux下，执行
 
